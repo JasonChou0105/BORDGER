@@ -2,6 +2,7 @@ import React from "react";
 import { IoCartOutline, IoPersonOutline } from "react-icons/io5"; // Ionicons from React Icons
 
 function Navbar() {
+  //test
   return (
     <div className="w-full ">
       <div className="flex flex-row space-between items-center justify-between mb-4 px-8 py-6 bg-black rounded-b-md">
