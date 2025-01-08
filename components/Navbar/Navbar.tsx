@@ -5,9 +5,9 @@ function Navbar() {
   //test
   return (
     <div className="w-full ">
-      <div className="flex flex-row space-between items-center justify-between mb-4 px-8 py-6 bg-black rounded-b-md">
-        <div className="text-white text-3xl">Borger?</div>
-        <div className="flex flex-row justify-center items-center space-between text-white">
+      <div className="flex flex-row space-between items-center justify-between px-8 py-6 bg-black rounded-b-md text-white">
+        <div className=" text-3xl font-black">BORDGER</div>
+        <div className="flex flex-row justify-center items-center space-between">
           <div className="mx-8 flex flex-row space-between items-center justify-between">
             <div className="mx-4">Home</div>
             <div className="mx-4">Menu</div>
