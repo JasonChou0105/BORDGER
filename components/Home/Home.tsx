@@ -1,5 +1,6 @@
-import Carousel from "./Carousel/Carousel";
-import HomeDescription from "./Carousel/DealDescription";
+import Carousel from "./Deals/Carousel";
+import HomeDescription from "./Deals/DealDescription";
+import Popular from "./Popular/Popular";
 
 function Home() {
   const slides = [
@@ -9,8 +10,9 @@ function Home() {
   ];
   return (
     <div className="m-auto">
-      <div className="flex w-full">
+      <div className="flex flex-col w-full">
         <Carousel slides={slides} />
+        <Popular />
       </div>
     </div>
   );
