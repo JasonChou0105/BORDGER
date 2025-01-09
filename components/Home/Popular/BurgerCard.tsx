@@ -27,8 +27,8 @@ function BurgerCard({ burger }) {
       <div className="flex flex-col">
         <h2 className="text-lg font-semibold leading-6">{burger.name}</h2>
         <p className="text-neutral-400 mb-6">${burger.price.toFixed(2)}</p>
-        <button className="text-3xl">
-          <FaPlusCircle />
+        <button>
+          <FaPlusCircle className="text-3xl transition-all ease-out duration-500 hover:text-amber-600" />
         </button>
       </div>
       <img
