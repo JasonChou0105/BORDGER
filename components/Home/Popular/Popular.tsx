@@ -1,4 +1,5 @@
 import BurgerCard from "./BurgerCard";
+import Link from "next/link";
 
 function Popular() {
   type Burger = {
@@ -69,9 +70,12 @@ function Popular() {
           <BurgerCard key={burger.name} burger={burger} />
         ))}
       </div>
-      <button className="transition-all ease-out duration-500 border-2 border-amber-600 hover:bg-transparent flex justify-center items-center w-40 h-12 m-16 p-5 rounded-lg bg-amber-600">
+      <Link
+        href="/menu"
+        className="transition-all ease-out duration-500 border-2 border-amber-600 hover:bg-transparent flex justify-center items-center w-40 h-12 m-16 p-5 rounded-lg bg-amber-600"
+      >
         <div className="font-bold text-center text-lg">Full Menu</div>
-      </button>
+      </Link>
     </div>
   );
 }
