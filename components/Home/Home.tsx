@@ -1,5 +1,4 @@
 import Carousel from "./Deals/Carousel";
-import HomeDescription from "./Deals/DealDescription";
 import Popular from "./Popular/Popular";
 
 function Home() {
