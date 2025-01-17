@@ -38,7 +38,7 @@ function MenuItem({ item }) {
       <img
         src={item.imageUrl}
         alt={item.name}
-        className="w-full h-40 object-cover rounded-md mb-4"
+        className="w-full h-40 object-contain rounded-md mb-4"
       />
     </div>
   );
