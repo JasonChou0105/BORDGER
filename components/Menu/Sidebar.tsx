@@ -2,18 +2,20 @@ import Link from "next/link";
 
 function Sidebar() {
   return (
-    <div className=" w-1/4 pt-12">
-      <Link
-        href={{ pathname: "/menu" }}
-        className="bg-stone-800 font-bold rounded-lg flex flex-col text-white text-2xl py-8 px-16 ml-16 my-6"
-      >
-        Our Menu
-      </Link>
-      <div className="bg-stone-800 rounded-lg flex flex-col text-neutral-300 text-base py-8 px-16 ml-16 my-6">
+    <div className=" w-1/4 pt-12 ">
+      <div className="bg-stone-800 rounded-lg flex py-6 px-12 ml-16 my-6">
+        <Link
+          href={{ pathname: "/menu" }}
+          className="font-bold text-white text-2xl hover:bg-stone-700 py-2 px-4 rounded-lg"
+        >
+          Our Menu
+        </Link>
+      </div>
+      <div className="bg-stone-800 rounded-lg flex flex-col text-neutral-300 text-base py-6 px-12 ml-16 my-6">
         <div className="my-3">
           <Link
             href={{ pathname: "/menu", query: { itemId: "featured-items" } }}
-            className=""
+            className="hover:bg-stone-700 py-2 px-4 rounded-lg"
           >
             Featured
           </Link>
@@ -21,7 +23,7 @@ function Sidebar() {
         <div className="my-3">
           <Link
             href={{ pathname: "/menu", query: { itemId: "burgers" } }}
-            className=""
+            className="hover:bg-stone-700 py-2 px-4 rounded-lg"
           >
             Burgers
           </Link>
@@ -29,7 +31,7 @@ function Sidebar() {
         <div className="my-3">
           <Link
             href={{ pathname: "/menu", query: { itemId: "wraps" } }}
-            className=""
+            className="hover:bg-stone-700 py-2 px-4 rounded-lg"
           >
             Wraps
           </Link>
@@ -37,7 +39,7 @@ function Sidebar() {
         <div className="my-3">
           <Link
             href={{ pathname: "/menu", query: { itemId: "sides" } }}
-            className=""
+            className="hover:bg-stone-700 py-2 px-4 rounded-lg"
           >
             Sides
           </Link>
@@ -45,7 +47,7 @@ function Sidebar() {
         <div className="my-3">
           <Link
             href={{ pathname: "/menu", query: { itemId: "drinks" } }}
-            className=""
+            className="hover:bg-stone-700 py-2 px-4 rounded-lg"
           >
             Drinks
           </Link>
@@ -53,7 +55,7 @@ function Sidebar() {
         <div className="my-3">
           <Link
             href={{ pathname: "/menu", query: { itemId: "kids-meals" } }}
-            className=""
+            className="hover:bg-stone-700 py-2 px-4 rounded-lg"
           >
             Kids meals
           </Link>
